@@ -76,22 +76,15 @@ params:
       featuredpoints:
         - point: Implementing and deploying a new contract testing framework between microservices.
         - point: Gained experience with Kubernetes, Ansible, Jenkins and Docker.
-    # - company: "Facebook"
-    #   # id: "facebook-developer" // use this, when you want to change the id(used for navigation)
-    #   role: "Fullstack developer"
-    #   startdate: Mar 2020
-    #   enddate: Dec 2020
-    #   featuredpoints:
-    #     - point: Lead backend developer for a product.
-    #     - point: Created a frontend design for a product.
-    # - company: "Amazon"
-    #   # id: "amazon-developer" // use this, when you want to change the id(used for navigation)
-    #   role: "Fullstack developer"
-    #   startdate: Feb 2019
-    #   enddate: Jan 2020
-    #   featuredpoints:
-    #     - point: Lead backend developer for a product.
-    #     - point: Created a frontend design for a product.
+    - company: "Redbrick (DCU's Networking Society)"
+      id: "redbrick"
+      role: "Helpdesk"
+      startdate: Mar 2021
+      enddate: Present
+      featuredpoints:
+        - point: Technical or services-related help for society members
+        - point: Run weekly workshops to teach other society members new and interesting things 
+                related to computing or improve their programming skills
 
   # Education
   disable_education: false

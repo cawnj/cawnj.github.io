@@ -82,8 +82,11 @@
         </div>
         {{ else }}
         <div class="tab-pane fade show active" id="{{ .company }}" role="tabpanel" aria-labelledby="{{ .company }}-tab">
-          <div class="h4 text-muted">
-            <span class="text-primary">{{ .company }}</span> - {{ .role }}
+          <div class="h4 text-primary">
+            {{ .company }}
+          </div>
+          <div class="h5 text-muted">
+            {{ .role }}
           </div>
           <div>
             <small>{{ .startdate }}</small>
@@ -101,8 +104,11 @@
         {{ else }}
         {{ if .id }}
         <div class="tab-pane fade" id="{{ .id }}" role="tabpanel" aria-labelledby="{{ .id }}-tab">
-          <div class="h4 text-muted">
-            <span class="text-primary">{{ .company }}</span> - {{ .role }}
+          <div class="h4 text-primary">
+            {{ .company }}
+          </div>
+          <div class="h5 text-muted">
+            {{ .role }}
           </div>
           <div>
             <small>{{ .startdate }}</small>
@@ -117,8 +123,11 @@
         </div>
         {{ else }}
         <div class="tab-pane fade" id="{{ .company }}" role="tabpanel" aria-labelledby="{{ .company }}-tab">
-          <div class="h4 text-muted">
-            <span class="text-primary">{{ .company }}</span> - {{ .role }}
+          <div class="h4 text-primary">
+            {{ .company }}
+          </div>
+          <div class="h5 text-muted">
+            {{ .role }}
           </div>
           <div>
             <small>{{ .startdate }}</small>
