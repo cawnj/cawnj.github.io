@@ -22,7 +22,7 @@ params:
   customCSS: false
 
   favicon: "/images/fav.png"
-  description: "A high performance hugo theme for personal portfolio and blog."
+  description: ""
 
   # Navbar Menus
   customMenus:
