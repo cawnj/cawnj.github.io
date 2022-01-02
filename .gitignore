@@ -2,4 +2,4 @@
 /config.yaml
 /content
 /static/images
-.vscode
+.vscode.hugo_build.lock
