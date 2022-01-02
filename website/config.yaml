@@ -1,6 +1,6 @@
-baseURL: "https://cawnj.dev"
+baseURL: "https://cawnj.github.io"
 languageCode: "en-us"
-title: "cawnj.dev"
+title: "cawnj"
 theme: "./.."
 relativeURLs: true
 
@@ -31,7 +31,7 @@ params:
 
   # home
   disable_home: false
-  profile_image: "/images/profile.png"
+  profile_image: "/images/profile.jpg"
   name: "Conor Joyce"
   namecolor: ffc107
   profession: "Computer Applications and Software Engineering Student"
