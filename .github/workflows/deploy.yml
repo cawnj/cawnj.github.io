@@ -28,7 +28,6 @@ jobs:
         with:
           personal_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./website/public
-          #external_repository:  gurusabarish/hugo-profile-demo
-          publish_branch: demo
+          publish_branch: static
           user_name: hugo-profile bot
           user_email: githubactionsbot@users.noreply.github.com
