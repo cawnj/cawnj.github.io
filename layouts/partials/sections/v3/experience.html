@@ -63,8 +63,11 @@
         {{ if (eq $index 0) }}
         {{ if .id }}
         <div class="tab-pane fade show active" id="{{ .id }}" role="tabpanel" aria-labelledby="{{ .id }}-tab">
-          <div class="h4 text-muted">
-            <span class="text-primary">{{ .company }}</span> - {{ .role }}
+          <div class="h4 text-primary">
+            {{ .company }}
+          </div>
+          <div class="h5 text-muted">
+            {{ .role }}
           </div>
           <div>
             <small>{{ .startdate }}</small>
