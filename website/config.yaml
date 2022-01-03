@@ -42,12 +42,12 @@ params:
   # instagram: "https://instagram.com"
   # facebook: "https://facebook.com"
 
-  #Custom social links
-  customSocialLinks:
-    # - imageURL: "https://hugo-profile.netlify.app/images/fav.png"
-    #   url: "https://gohugo.com"
-    - fontAwesomeIconName: "fa fa-envelope"
-      url: "mailto:conor.joyce27@mail.dcu.ie"
+  # Custom social links
+  # customSocialLinks:
+  #   # - imageURL: "https://hugo-profile.netlify.app/images/fav.png"
+  #   #   url: "https://gohugo.com"
+  #   - fontAwesomeIconName: "fa fa-envelope"
+  #     url: "mailto:conor.joyce27@mail.dcu.ie"
   
   # About
   disable_about: false
