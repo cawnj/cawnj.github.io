@@ -7,10 +7,12 @@
         <ol class="ex-ol pl-5 pr-3">
           {{ range .Site.Params.experience }}
           <li class="ex-ol-li" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="600" data-aos-once="true">
-            <h4 class="text-muted">
-              <span class="text-primary">{{ .company }}</span> - {{ .role }}
-            </h4>
-            <div>
+            <div class="h4 text-primary">
+              {{ .company }}
+            </div>
+            <div class="h5 text-muted">
+              {{ .role }}
+            </div>            <div>
               <small>{{ .startdate}}</small>
               -
               <small>{{ .enddate }}</small>
