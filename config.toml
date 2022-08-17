@@ -1,0 +1,30 @@
+title = "cawnj"
+languageCode = "en-us"
+baseURL = "https://cawnj.dev/"
+copyright = "© {year}"
+theme = "hugo-theme-codex" 
+
+[params]
+  dateFormat = "Jan 2 2006"
+
+  github = "https://github.com/cawnj"
+  email = "mailto:conor.joyce27@mail.dcu.ie"
+  instagram = "https://instagram.com/jonorcoyce"
+  linkedin = "https://www.linkedin.com/in/conor-joyce-00/"
+  iconOrder = ["GitHub", "LinkedIn", "Instagram", "Email"]
+
+[markup]
+  [markup.highlight]
+    codeFences = false
+
+[[menu.main]]
+  identifier = "about"
+  name = "about"
+  title = "About"
+  url = "/"
+
+[[menu.main]]
+  identifier = "blog"
+  name = "blog"
+  title = "Blog"
+  url = "/blog"
