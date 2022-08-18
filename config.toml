@@ -3,6 +3,7 @@ languageCode = "en-us"
 baseURL = "https://cawnj.dev/"
 copyright = "© {year}"
 theme = "hugo-theme-codex" 
+googleAnalytics = "G-H5MK1S5RJT"
 
 [params]
   dateFormat = "Jan 2 2006"
