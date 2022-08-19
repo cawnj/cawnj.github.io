@@ -1,7 +1,6 @@
 ---
 title: "Example Post"
 date: 2022-08-17T03:33:00+01:00
-slug: "example-post"
 description: "This is an example post."
 ---
 
