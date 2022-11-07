@@ -7,7 +7,7 @@ A short summary of what the project is and how it was implemented.
 
 ## What is Sonic?
 
-Sonic is a system my project partner and I designed for our third-year project at university. It was a solution to a problem we were facing often at the time, which was COVID contact tracing, and how to efficiently implement this.
+Sonic is a system my project partner [Jason](https://www.linkedin.com/in/jason-henderson-837258216/) and I designed for our third-year project at university. It was a solution to a problem we were facing often at the time, which was COVID contact tracing, and how to efficiently implement this.
 Sonic consists of a Go REST API, a PostgreSQL database, NFC cards and both Python and React Native clients.
 
 The idea was to enable contact tracing in, for example, a restaurant, via NFC cards - imagine tapping while getting on and getting off a train, for instance, the same idea applies here. Users would tap their card on a scanner device on entry and exit, and if they test positive for COVID, they can use the app to anonymously send a notification to every other person who was in the building at the time, so that they are aware that they may be a close contact.
