@@ -2,9 +2,6 @@
 # Set to the URL for your site
 baseURL = "https://example.com"
 
-# The name of this wonderful theme ;-).
-theme = 'hugo-bearblog'
-
 # Basic metadata configuration for your blog.
 title = "Hugo ʕ•ᴥ•ʔ Bear Blog"
 author = "Jane Doe"
