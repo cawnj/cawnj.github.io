@@ -1,4 +1,9 @@
-<a href="{{ "" | relURL }}" class="title">
-  <h2>{{ .Site.Title }}</h2>
+<a class="title" href="{{ "" | relURL }}">
+  <h1>{{ .Site.Title }}</h1>
 </a>
-<nav>{{- partial "nav.html" . -}}</nav>
+
+{{ if ne .Kind "404" }}
+<nav>
+  <p>{{- partial "nav.html" . -}}</p>
+</nav>
+{{ end }}
