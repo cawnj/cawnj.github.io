@@ -1,5 +1,4 @@
-{{ define "main" }}
-{{ if eq .Type "blog" }}{{ if not .Params.menu }}
+{{ define "main" }} {{ if eq .Type "blog" }}{{ if not .Params.menu }}
 <h1>{{ .Title }}</h1>
 <p>
   <i>
@@ -9,12 +8,9 @@
   </i>
 </p>
 {{ end }}{{ end }}
-<content>
-  {{ .Content }}
-</content>
+<content> {{ .Content }} </content>
 
-{{ if (.Param "enablePostNavigator")}}
-{{- partial "post_navigator.html" . -}}
+{{ if (.Param "enablePostNavigator")}} {{- partial "post_navigator.html" . -}}
 {{ end }}
 
 <p>
