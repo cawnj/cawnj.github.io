@@ -3,16 +3,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=5"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5" />
 
-    <title>
-      {{- block "title" . }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title
-      }}{{- end }}
-    </title>
+    <title>{{- block "title" . }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{- end }}</title>
     <link rel="canonical" href="{{ .Site.BaseURL }}" />
+
     {{ partial "seo_tags.html" . }}
     {{ partial "favicon.html" . }}
     {{ partial "style.html" . }}
