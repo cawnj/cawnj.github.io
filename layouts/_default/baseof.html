@@ -16,8 +16,10 @@
 
     {{ partial "favicon.html" . }}
 
-    <link href='{{ (resources.Get "main.css").RelPermalink }}' rel="stylesheet">
-    <link href='{{ (resources.Get "syntax.css").RelPermalink }}' rel="stylesheet">
+    {{ $main := resources.Get "main.css" | resources.Minify }}
+    {{ $syntax := resources.Get "syntax.css" | resources.Minify }}
+    <style>{{ $main.Content | safeCSS }}</style>
+    <style>{{ $syntax.Content | safeCSS }}</style>
 
   </head>
 
