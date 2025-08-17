@@ -3,3 +3,6 @@ format:
 
 build: format
   hugo build
+
+deploy: format
+  hugo --gc
