@@ -1,27 +1,35 @@
-+++
-title = "Home"
-menu = "main"
-weight = 1
-+++
-
-# A match made in heaven
-
-There is a website obesity crisis. Bloated websites full of scripts, ads, and trackers are slowing your readers down every time they try to read your well-crafted content.
-
-Hugo Bear Blog is all you need to build a fantastic and optimized site or blog. It works perfectly on **any** viewing device. All you need to focus on is writing good content.
-
-[Go to the original bear blog](https://bearblog.dev/).
-
+---
+title: "Home"
+menu: "main"
+weight: 1
 ---
 
-What happens when you combine the worlds' fastest, most lightweight static site generator with a design theme built to provide you with free, no-nonsense, super-fast blogging capabilities?
+# ᕦʕ •ᴥ•ʔᕤ Bear Cub
 
-**Use this theme, and find out!**
+Today's websites are bloated, slow, and full of scripts, ads, and trackers. This
+became so commonplace that we lost all sense of perspective, to the point that
+we now think multi-megabyte webpages are normal.
 
-Made with 💟 by [Jan Raasch](https://www.janraasch.com).
+> The internet has become a bloated mess. Huge JavaScript libraries, countless
+> client-side queries and overly complex frontend frameworks are par for the
+> course these days.
+>
+> --- [Kev Quirk](https://512kb.club/)
 
----
+Let's change this, one website at a time! **Bear Cub** is a
+[Hugo](https://gohugo.io/) theme based on [Hugo
+Bear](https://github.com/janraasch/hugo-bearblog/) that takes care of speed and
+optimization, so you can focus on writing good content.
 
-Simply publish content online, grow an audience, and keep your pages tiny, fast, and **optimized for search engines**.
+It is free, multilingual, optimized for search engines, no-nonsense, responsive,
+light, and fast. Really fast.
 
-Each page is ~5kb, and you can **host your blog yourself**.
+When compared to its predecessor, **Bear Cub** has a few
+[privacy](https://themarkup.org/blacklight?url=clente.github.io/hugo-bearcub/)
+and
+[accessibility](https://pagespeed.web.dev/report?url=https%3A%2F%2Fclente.github.io%2Fhugo-bearcub%2F)
+upgrades. It's also compatible with modern
+[security](https://github.com/clente/hugo-bearcub#secure) standards, so your
+users don't have to worry about browsing your website.
+
+Made with 💟 by [Caio lente](https://lente.dev/en).

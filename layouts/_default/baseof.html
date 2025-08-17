@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- prettier-ignore -->
-<html lang="en">
+<html lang="{{ .Site.LanguageCode }}">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5" />
@@ -9,6 +9,11 @@
     <link rel="canonical" href="{{ .Site.BaseURL }}" />
 
     {{ partial "seo_tags.html" . }}
+
+    {{ with .OutputFormats.Get "rss" -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
+
     {{ partial "favicon.html" . }}
 
     <link href='{{ (resources.Get "main.css").RelPermalink }}' rel="stylesheet">
