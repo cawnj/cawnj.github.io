@@ -50,10 +50,12 @@ ignoreErrors = ["error-disable-taxonomy"]
 # https://gohugo.io/configuration/markup/#highlight
 [markup]
   [markup.highlight]
-    style = 'friendly'
     lineNos = true
     lineNumbersInTable = false
-    codeFences = true
+    # This allows Bear Cub to use a variation of Dracula that is more accessible
+    # to people with poor eyesight. For more information about color contrast
+    # and accessibility, see https://web.dev/color-and-contrast-accessibility/
+    noClasses = false
 
 [caches]
   [caches.images]
