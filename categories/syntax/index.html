@@ -8,15 +8,15 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=5"
     />
 
-    <title>404</title>
+    <title>Syntax | Hugo ʕ•ᴥ•ʔ Bear Blog</title>
     <link rel="canonical" href="https://example.com/" />
 
-    <meta name="title" content="404 Page not found" />
+    <meta name="title" content="Syntax" />
     <meta name="description" content="Hugo &#43; Bear = :heart:" />
 
-    <meta property="og:url" content="https://example.com/404.html" />
+    <meta property="og:url" content="https://example.com/categories/syntax/" />
     <meta property="og:site_name" content="Hugo ʕ•ᴥ•ʔ Bear Blog" />
-    <meta property="og:title" content="404 Page not found" />
+    <meta property="og:title" content="Syntax" />
     <meta property="og:description" content="Hugo &#43; Bear = :heart:" />
     <meta property="og:locale" content="en" />
     <meta property="og:type" content="website" />
@@ -27,12 +27,21 @@
       name="twitter:image"
       content="https://example.com/images/share.webp"
     />
-    <meta name="twitter:title" content="404 Page not found" />
+    <meta name="twitter:title" content="Syntax" />
     <meta name="twitter:description" content="Hugo &#43; Bear = :heart:" />
 
-    <meta itemprop="name" content="404 Page not found" />
+    <meta itemprop="name" content="Syntax" />
     <meta itemprop="description" content="Hugo &#43; Bear = :heart:" />
+    <meta itemprop="datePublished" content="2019-03-11T00:00:00+00:00" />
+    <meta itemprop="dateModified" content="2019-03-11T00:00:00+00:00" />
     <meta itemprop="image" content="https://example.com/images/share.webp" />
+
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      href="https://example.com/categories/syntax/index.xml"
+      title="Hugo ʕ•ᴥ•ʔ Bear Blog"
+    />
 
     <link rel="shortcut icon" href="https://example.com/images/favicon.png" />
 
@@ -43,26 +52,33 @@
   <body>
     <header>
       <a class="title" href="/"><h1>Hugo ʕ•ᴥ•ʔ Bear Blog</h1></a>
+      <nav>
+        <p>
+          <a href="/">Home</a>
+          <a href="/blog/">Blog</a>
+        </p>
+      </nav>
     </header>
     <main>
-      <div
-        style="
-          text-align: center;
-          display: flex;
-          flex-flow: column;
-          justify-content: center;
-          height: calc(100vh - 70px);
-        "
-      >
-        <h1>404</h1>
-        <h2>ʕノ•ᴥ•ʔノ ︵ ┻━┻</h2>
-        <p>
-          It looks like this page doesn't exist.
-          <br />
-          Let's get you
-          <a href="/">back home</a>.
-        </p>
-      </div>
+      <content>
+        <h3 style="margin-bottom: 0">Filtering for "Syntax"</h3>
+        <small>
+          <a href="/blog">Remove filter</a>
+        </small>
+
+        <ul class="blog-posts">
+          <li>
+            <span>
+              <i>
+                <time datetime="2019-03-11"> 11 Mar, 2019 </time>
+              </i>
+            </span>
+            <a href="https://example.com/blog/markdown-syntax/"
+              >Markdown Syntax Guide</a
+            >
+          </li>
+        </ul>
+      </content>
     </main>
     <footer style="padding: 25px 0">
       <span>
