@@ -1,4 +1,5 @@
 <!doctype html>
+
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -7,260 +8,244 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=5"
     />
 
-    <title>Syntax | Hugo ʕ•ᴥ•ʔ Bear Blog
-    </title>
+    <title>Syntax | Hugo ʕ•ᴥ•ʔ Bear Blog</title>
     <link rel="canonical" href="https://cawnj.github.io/" />
 
-    
-<meta
-  name="title"
-  content="Syntax"
-/>
-<meta
-  name="description"
-  content="Hugo &#43; Bear = :heart:"
-/>
+    <meta name="title" content="Syntax" />
+    <meta name="description" content="Hugo &#43; Bear = :heart:" />
 
+    <meta property="og:url" content="https://cawnj.github.io/blog/syntax/" />
+    <meta property="og:site_name" content="Hugo ʕ•ᴥ•ʔ Bear Blog" />
+    <meta property="og:title" content="Syntax" />
+    <meta property="og:description" content="Hugo &#43; Bear = :heart:" />
+    <meta property="og:locale" content="en" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://cawnj.github.io/images/share.png"
+    />
 
-<meta property="og:url" content="https://cawnj.github.io/blog/syntax/">
-  <meta property="og:site_name" content="Hugo ʕ•ᴥ•ʔ Bear Blog">
-  <meta property="og:title" content="Syntax">
-  <meta property="og:description" content="Hugo &#43; Bear = :heart:">
-  <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
-    <meta property="og:image" content="https://cawnj.github.io/images/share.png">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:image"
+      content="https://cawnj.github.io/images/share.png"
+    />
+    <meta name="twitter:title" content="Syntax" />
+    <meta name="twitter:description" content="Hugo &#43; Bear = :heart:" />
 
+    <meta itemprop="name" content="Syntax" />
+    <meta itemprop="description" content="Hugo &#43; Bear = :heart:" />
+    <meta itemprop="datePublished" content="2020-01-03T00:00:00+00:00" />
+    <meta itemprop="dateModified" content="2020-01-03T00:00:00+00:00" />
+    <meta itemprop="image" content="https://cawnj.github.io/images/share.png" />
 
+    <link
+      rel="shortcut icon"
+      href="https://cawnj.github.io/images/favicon.png"
+    />
 
+    <style>
+      :root {
+        --width: 720px;
+        --font-main: Verdana, sans-serif;
+        --font-secondary: Verdana, sans-serif;
+        --font-scale: 1em;
+        --background-color: #fff;
+        --heading-color: #222;
+        --text-color: #444;
+        --link-color: #3273dc;
+        --visited-color: #8b6fcb;
+        --code-background-color: #f2f2f2;
+        --code-color: #222;
+        --blockquote-color: #222;
+      }
 
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://cawnj.github.io/images/share.png">
-  <meta name="twitter:title" content="Syntax">
-  <meta name="twitter:description" content="Hugo &#43; Bear = :heart:">
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --background-color: #01242e;
+          --heading-color: #eee;
+          --text-color: #ddd;
+          --link-color: #8cc2dd;
+          --visited-color: #8b6fcb;
+          --code-background-color: #000;
+          --code-color: #ddd;
+          --blockquote-color: #ccc;
+        }
+      }
 
+      body {
+        font-family: var(--font-secondary);
+        font-size: var(--font-scale);
+        margin: auto;
+        padding: 20px;
+        max-width: var(--width);
+        text-align: left;
+        background-color: var(--background-color);
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        line-height: 1.5;
+        color: var(--text-color);
+      }
 
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: var(--font-main);
+        color: var(--heading-color);
+      }
 
+      a {
+        color: var(--link-color);
+        cursor: pointer;
+        text-decoration: none;
+      }
 
-  <meta itemprop="name" content="Syntax">
-  <meta itemprop="description" content="Hugo &#43; Bear = :heart:">
-  <meta itemprop="datePublished" content="2020-01-03T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2020-01-03T00:00:00+00:00">
-  <meta itemprop="image" content="https://cawnj.github.io/images/share.png">
- 
-<link rel="shortcut icon" href="https://cawnj.github.io/images/favicon.png" />
- <style>
-  :root {
-    --width: 720px;
-    --font-main: Verdana, sans-serif;
-    --font-secondary: Verdana, sans-serif;
-    --font-scale: 1em;
-    --background-color: #fff;
-    --heading-color: #222;
-    --text-color: #444;
-    --link-color: #3273dc;
-    --visited-color: #8b6fcb;
-    --code-background-color: #f2f2f2;
-    --code-color: #222;
-    --blockquote-color: #222;
-  }
+      a:hover {
+        text-decoration: underline;
+      }
 
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --background-color: #01242e;
-      --heading-color: #eee;
-      --text-color: #ddd;
-      --link-color: #8cc2dd;
-      --visited-color: #8b6fcb;
-      --code-background-color: #000;
-      --code-color: #ddd;
-      --blockquote-color: #ccc;
-    }
-  }
+      nav a {
+        margin-right: 8px;
+      }
 
-  body {
-    font-family: var(--font-secondary);
-    font-size: var(--font-scale);
-    margin: auto;
-    padding: 20px;
-    max-width: var(--width);
-    text-align: left;
-    background-color: var(--background-color);
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    line-height: 1.5;
-    color: var(--text-color);
-  }
+      strong,
+      b {
+        color: var(--heading-color);
+      }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: var(--font-main);
-    color: var(--heading-color);
-  }
+      button {
+        margin: 0;
+        cursor: pointer;
+      }
 
-  a {
-    color: var(--link-color);
-    cursor: pointer;
-    text-decoration: none;
-  }
+      time {
+        font-family: monospace;
+        font-style: normal;
+        font-size: 15px;
+      }
 
-  a:hover {
-    text-decoration: underline;
-  }
+      main {
+        line-height: 1.6;
+      }
 
-  nav a {
-    margin-right: 8px;
-  }
+      table {
+        width: 100%;
+      }
 
-  strong,
-  b {
-    color: var(--heading-color);
-  }
+      hr {
+        border: 0;
+        border-top: 1px dashed;
+      }
 
-  button {
-    margin: 0;
-    cursor: pointer;
-  }
+      img {
+        max-width: 100%;
+      }
 
-  time {
-    font-family: monospace;
-    font-style: normal;
-    font-size: 15px;
-  }
+      code {
+        font-family: monospace;
+        padding: 2px;
+        background-color: var(--code-background-color);
+        color: var(--code-color);
+        border-radius: 3px;
+      }
 
-  main {
-    line-height: 1.6;
-  }
+      blockquote {
+        border-left: 1px solid #999;
+        color: var(--code-color);
+        padding-left: 20px;
+        font-style: italic;
+      }
 
-  table {
-    width: 100%;
-  }
+      footer {
+        padding: 25px 0;
+        text-align: center;
+      }
 
-  hr {
-    border: 0;
-    border-top: 1px dashed;
-  }
+      .title:hover {
+        text-decoration: none;
+      }
 
-  img {
-    max-width: 100%;
-  }
+      .title h1 {
+        font-size: 1.5em;
+      }
 
-  code {
-    font-family: monospace;
-    padding: 2px;
-    background-color: var(--code-background-color);
-    color: var(--code-color);
-    border-radius: 3px;
-  }
+      .inline {
+        width: auto !important;
+      }
 
-  blockquote {
-    border-left: 1px solid #999;
-    color: var(--code-color);
-    padding-left: 20px;
-    font-style: italic;
-  }
+      .highlight,
+      .code {
+        padding: 1px 15px;
+        background-color: var(--code-background-color);
+        color: var(--code-color);
+        border-radius: 3px;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        overflow-x: auto;
+      }
 
-  footer {
-    padding: 25px 0;
-    text-align: center;
-  }
+      ul.blog-posts {
+        list-style-type: none;
+        padding: unset;
+      }
 
-  .title:hover {
-    text-decoration: none;
-  }
+      ul.blog-posts li {
+        display: flex;
+      }
 
-  .title h1 {
-    font-size: 1.5em;
-  }
+      ul.blog-posts li span {
+        flex: 0 0 130px;
+      }
 
-  .inline {
-    width: auto !important;
-  }
-
-  .highlight,
-  .code {
-    padding: 1px 15px;
-    background-color: var(--code-background-color);
-    color: var(--code-color);
-    border-radius: 3px;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    overflow-x: auto;
-  }
-
-   
-  ul.blog-posts {
-    list-style-type: none;
-    padding: unset;
-  }
-
-  ul.blog-posts li {
-    display: flex;
-  }
-
-  ul.blog-posts li span {
-    flex: 0 0 130px;
-  }
-
-  ul.blog-posts li a:visited {
-    color: var(--visited-color);
-  }
-</style>
-
+      ul.blog-posts li a:visited {
+        color: var(--visited-color);
+      }
+    </style>
   </head>
 
   <body>
-    <header><a class="title" href='/'>
-  <h1>Hugo ʕ•ᴥ•ʔ Bear Blog</h1>
-</a>
-
-
-<nav>
-  <p>
-<a href="/">Home</a>
-
-<a href="/hugo/">Hugo</a>
-
-<a href="/bear/">Bear</a>
-
-<a href="/blog/">Blog</a>
-
-</p>
-</nav>
-
-</header>
+    <header>
+      <a class="title" href="/">
+        <h1>Hugo ʕ•ᴥ•ʔ Bear Blog</h1>
+      </a>
+      <nav>
+        <p>
+          <a href="/">Home</a><a href="/hugo/">Hugo</a><a href="/bear/">Bear</a
+          ><a href="/blog/">Blog</a>
+        </p>
+      </nav>
+    </header>
     <main>
-<content>
-  
-  <h3 style="margin-bottom: 0">Filtering for "Syntax"</h3>
-  <small>
-    <a href='/blog'>Remove filter</a>
-  </small>
-  
-  <ul class="blog-posts">
-    
-    <li>
+      <content>
+        <h3 style="margin-bottom: 0">Filtering for "Syntax"</h3>
+        <small>
+          <a href="/blog">Remove filter</a>
+        </small>
+
+        <ul class="blog-posts">
+          <li>
+            <span>
+              <i>
+                <time datetime="2020-01-03"> 03 Jan, 2020 </time>
+              </i>
+            </span>
+            <a href="https://cawnj.github.io/markdown-syntax-guide/"
+              >Markdown Syntax Guide</a
+            >
+          </li>
+        </ul>
+      </content>
+    </main>
+    <footer style="padding: 25px 0">
       <span>
-        <i>
-          <time datetime='2020-01-03'>
-            03 Jan, 2020
-          </time>
-        </i>
+        Made with
+        <a href="https://github.com/janraasch/hugo-bearblog/"
+          >Hugo ʕ•ᴥ•ʔ Bear</a
+        >
       </span>
-      <a href="https://cawnj.github.io/markdown-syntax-guide/">Markdown Syntax Guide</a>
-    </li>
-    
-  </ul>
-  
-</content>
-</main>
-    <footer style="padding: 25px 0"><span>
-  Made with
-  <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
-</span>
-</footer>
+    </footer>
   </body>
 </html>
