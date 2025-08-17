@@ -2,7 +2,7 @@
   <h1>{{ .Site.Title }}</h1>
 </a>
 
-{{ if ne .Kind "404" }}
+{{- if ne .Kind "404" }}
 <nav>
   <p>{{- partial "nav.html" . -}}</p>
 </nav>

@@ -1,8 +1,5 @@
 format:
-  npx prettier --write .
+  npx prettier --ignore-path /dev/null --write .
 
-build: format
-  hugo build
-
-deploy: format
+build:
   hugo --gc
