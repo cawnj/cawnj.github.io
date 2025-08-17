@@ -2,67 +2,68 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Hugo ʕ•ᴥ•ʔ Bear Blog</title>
-    <link>https://example.com/tags/</link>
+    <link>https://cawnj.github.io/tags/</link>
     <description>Recent content in Tags on Hugo ʕ•ᴥ•ʔ Bear Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>me@example.com (John Doe)</managingEditor>
-    <webMaster>me@example.com (John Doe)</webMaster>
+    <managingEditor>conor@cawnj.dev (Conor Joyce)</managingEditor>
+    <webMaster>conor@cawnj.dev (Conor Joyce)</webMaster>
+    <copyright>Made with [Bear Cub](https://github.com/clente/hugo-bearcub)</copyright>
     <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cawnj.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Css</title>
-      <link>https://example.com/tags/css/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate><author>me@example.com (John Doe)</author>
-      <guid>https://example.com/tags/css/</guid>
+      <link>https://cawnj.github.io/tags/css/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate><author>conor@cawnj.dev (Conor Joyce)</author>
+      <guid>https://cawnj.github.io/tags/css/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Html</title>
-      <link>https://example.com/tags/html/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate><author>me@example.com (John Doe)</author>
-      <guid>https://example.com/tags/html/</guid>
+      <link>https://cawnj.github.io/tags/html/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate><author>conor@cawnj.dev (Conor Joyce)</author>
+      <guid>https://cawnj.github.io/tags/html/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Markdown</title>
-      <link>https://example.com/tags/markdown/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate><author>me@example.com (John Doe)</author>
-      <guid>https://example.com/tags/markdown/</guid>
+      <link>https://cawnj.github.io/tags/markdown/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate><author>conor@cawnj.dev (Conor Joyce)</author>
+      <guid>https://cawnj.github.io/tags/markdown/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Privacy</title>
-      <link>https://example.com/tags/privacy/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate><author>me@example.com (John Doe)</author>
-      <guid>https://example.com/tags/privacy/</guid>
+      <link>https://cawnj.github.io/tags/privacy/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate><author>conor@cawnj.dev (Conor Joyce)</author>
+      <guid>https://cawnj.github.io/tags/privacy/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Shortcodes</title>
-      <link>https://example.com/tags/shortcodes/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate><author>me@example.com (John Doe)</author>
-      <guid>https://example.com/tags/shortcodes/</guid>
+      <link>https://cawnj.github.io/tags/shortcodes/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate><author>conor@cawnj.dev (Conor Joyce)</author>
+      <guid>https://cawnj.github.io/tags/shortcodes/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Text</title>
-      <link>https://example.com/tags/text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate><author>me@example.com (John Doe)</author>
-      <guid>https://example.com/tags/text/</guid>
+      <link>https://cawnj.github.io/tags/text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate><author>conor@cawnj.dev (Conor Joyce)</author>
+      <guid>https://cawnj.github.io/tags/text/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Emoji</title>
-      <link>https://example.com/tags/emoji/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate><author>me@example.com (John Doe)</author>
-      <guid>https://example.com/tags/emoji/</guid>
+      <link>https://cawnj.github.io/tags/emoji/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate><author>conor@cawnj.dev (Conor Joyce)</author>
+      <guid>https://cawnj.github.io/tags/emoji/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

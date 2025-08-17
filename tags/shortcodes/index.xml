@@ -2,19 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Shortcodes on Hugo ʕ•ᴥ•ʔ Bear Blog</title>
-    <link>https://example.com/tags/shortcodes/</link>
+    <link>https://cawnj.github.io/tags/shortcodes/</link>
     <description>Recent content in Shortcodes on Hugo ʕ•ᴥ•ʔ Bear Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>me@example.com (John Doe)</managingEditor>
-    <webMaster>me@example.com (John Doe)</webMaster>
+    <managingEditor>conor@cawnj.dev (Conor Joyce)</managingEditor>
+    <webMaster>conor@cawnj.dev (Conor Joyce)</webMaster>
+    <copyright>Made with [Bear Cub](https://github.com/clente/hugo-bearcub)</copyright>
     <lastBuildDate>Sun, 10 Mar 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.com/tags/shortcodes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cawnj.github.io/tags/shortcodes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rich Content</title>
-      <link>https://example.com/blog/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate><author>me@example.com (John Doe)</author>
-      <guid>https://example.com/blog/rich-content/</guid>
+      <link>https://cawnj.github.io/blog/rich-content/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate><author>conor@cawnj.dev (Conor Joyce)</author>
+      <guid>https://cawnj.github.io/blog/rich-content/</guid>
       <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;&#xA;&lt;h2&gt;&lt;/h2&gt;</description>
       <content:encoded><![CDATA[<p>Hugo ships with several <a href="https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes">Built-in Shortcodes</a> for rich content, along with a <a href="https://gohugo.io/about/hugo-and-gdpr/">Privacy Config</a> and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.</p>
 <h2></h2>
